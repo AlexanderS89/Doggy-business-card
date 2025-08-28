@@ -1,0 +1,111 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avi-wrapper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid #99824c;
+    border-radius: 10px; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+}
+
+.avatar {
+    width: 150px;
+    margin: -50px -20px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #e30613;
+    color: white;
+    border-bottom: 8px solid #99824C;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.card:hover {
+    background-image: url(./images/Freyabeach.jpg);
+    background-size: 600px;
+}
+
+h3 {
+    font-family: Georgia, serif;;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    border-bottom: 1px dashed white;
+    padding-bottom: 8px;
+}
+
+p:hover {
+    font-style: italic;
+    font-weight: bold;
+    color: pink;
+    animation: animate-baby;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+/*
+.border-blue {
+    border: 1px dotted blue;
+}
+*/
+
+/* animation */
+
+@keyframes animate-baby {
+    50% {font-size: 1.1rem;}
+}
+
+/* testing animations
+@keyframes animate-irish {
+    0% {color: white;}
+    25% {color: lightgreen;}
+    50% {color: lightgreen;}
+    75% {color: lightgreen;}
+    100% {color: white;}
+}
+*/
+
+
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
